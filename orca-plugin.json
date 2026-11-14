@@ -1,0 +1,25 @@
+{
+  "manifestVersion": 2,
+  "id": "borderless-mono",
+  "name": "Borderless Mono",
+  "version": "0.1.0",
+  "description": "Borderless monochrome dark and light themes for Orca.",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "execution": "data",
+  "contributes": {
+    "themes": [
+      {
+        "id": "borderless-mono-dark",
+        "title": "Borderless Mono Dark",
+        "path": "themes/dark.json"
+      },
+      {
+        "id": "borderless-mono-light",
+        "title": "Borderless Mono Light",
+        "path": "themes/light.json"
+      }
+    ]
+  }
+}
