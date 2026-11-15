@@ -49,5 +49,88 @@
     "--text-link": "#e6eaf0",
     "--chat-user-message": "#171717",
     "--chat-selection": "rgba(230, 234, 240, 0.2)"
-  }
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#686868",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage"
+      ],
+      "settings": {
+        "foreground": "#ba8baf"
+      }
+    },
+    {
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#86c1b9"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#a1b56c"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#7cafc2"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.type",
+        "constant.numeric",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#f7ca88"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag",
+        "invalid"
+      ],
+      "settings": {
+        "foreground": "#ab4642"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#d8d8d8"
+      }
+    },
+    {
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "#7cafc2",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.underline.link",
+      "settings": {
+        "foreground": "#86c1b9",
+        "fontStyle": "underline"
+      }
+    }
+  ]
 }
