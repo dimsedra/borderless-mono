@@ -2,7 +2,7 @@
   "manifestVersion": 2,
   "id": "borderless-mono",
   "name": "Borderless Mono",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Borderless monochrome dark and light themes for Orca.",
   "license": "MIT",
   "cover": {
