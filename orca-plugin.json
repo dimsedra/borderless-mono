@@ -2,9 +2,13 @@
   "manifestVersion": 2,
   "id": "borderless-mono",
   "name": "Borderless Mono",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Borderless monochrome dark and light themes for Orca.",
   "license": "MIT",
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "Borderless Mono Dark theme showing the code editor and borderless sidebars in Orca"
+  },
   "engines": {
     "orca": ">=1.4.246"
   },
