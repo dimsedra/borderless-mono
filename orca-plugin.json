@@ -2,8 +2,8 @@
   "manifestVersion": 2,
   "id": "borderless-mono",
   "name": "Borderless Mono",
-  "version": "0.1.6",
-  "description": "Borderless monochrome dark and light themes for Orca.",
+  "version": "0.1.7",
+  "description": "Borderless monochrome dark and light app and terminal themes for Orca.",
   "license": "MIT",
   "cover": {
     "path": "images/cover.png",
@@ -38,6 +38,18 @@
         "id": "borderless-mono-light",
         "title": "Borderless Mono Light",
         "path": "themes/light.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "borderless-mono-dark-terminal",
+        "title": "Borderless Mono Dark",
+        "path": "terminal/dark.json"
+      },
+      {
+        "id": "borderless-mono-light-terminal",
+        "title": "Borderless Mono Light",
+        "path": "terminal/light.json"
       }
     ]
   }
